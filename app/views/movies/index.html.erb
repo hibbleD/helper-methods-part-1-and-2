@@ -2,10 +2,14 @@
   List of all movies
 </h1>
 
+<h2>
+  <%= movie_path(42) %>
+</h2>
+
 <hr>
 
 <div>
-  <a href="/movies/new">Add a new movie</a>
+  <a href="<%= new_movie_path %>">Add a new movie</a>
 </div>
 
 <hr>
